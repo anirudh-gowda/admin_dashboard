@@ -1,0 +1,18 @@
+ /*dashboard*/
+body{
+    background-image: url(../img/bg3.jpg);
+    background-size: cover;
+}
+
+ .container {
+    min-height: 100vh;
+    padding: 20px 0;
+ }
+ 
+  .table-container {
+    height: 95vh;
+  }
+
+  .table{
+    background-color: rgba(226, 226, 226, 0.979);
+  }
