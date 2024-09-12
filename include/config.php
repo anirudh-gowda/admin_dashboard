@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect("localhost", "root", "5055", "admin_dashboard");
+$conn = mysqli_connect("localhost", "root", "", "admin_dashboard");
 
 if(!$conn)
 {
