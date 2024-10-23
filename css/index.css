@@ -1,0 +1,102 @@
+*{
+    font-family: 'Poppins', 'sans-serif';
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+ }
+
+body {
+    height: 110dvh;
+}
+
+.navbr{
+    height: 8dvh;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #FFFCF7;
+}
+
+.navbr h1{
+    padding-left: 4vw;
+}
+
+.navbr-link {
+    padding-right: 6vw;
+}
+
+.navbr-link a{
+    padding: 6px;
+    margin: 6px;
+    color: black;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.main_img1 {
+    height: 95vh;
+    background-image: url(../img/bg1.png);
+    background-size: cover;
+}
+
+.main_img2 {
+    height: 95vh;
+    background-image: url(../img/bg2.png);
+    background-size: cover;
+}
+
+footer{
+    height: 8vh;
+    background-color: #414933ed;
+    color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .box{                                      /* signup and login */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    padding-bottom: 60px;
+    background: #C1C3D2;
+ }
+ 
+ .box form{
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.253);
+    background: #F6E4E3;
+    text-align: center;
+    width: 450px;
+ }
+ 
+ .box form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color:#292727;
+ }
+ 
+ .box form input{
+    width: 85%;
+    padding:10px 15px;
+    font-size: 17px;
+    margin:8px 0;
+    background: #eee;
+    border-radius: 5px;
+    border: 1px solid gray
+ }
+ 
+
+ .box form .form-btn{
+    background: #036741c4;
+    color:rgb(243, 247, 236);
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+ }

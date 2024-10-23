@@ -1,0 +1,28 @@
+ /*dashboard*/
+body{
+   height: 100vh;
+}
+
+  .nav{
+    height: 60px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav h3{
+    font-style: italic;
+  }
+
+  .nav .btn{
+    margin: 0;
+    text-decoration: none;
+  }
+  
+ .container {
+    min-height: 100vh;
+    padding: 20px 10px;
+ }
