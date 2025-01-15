@@ -22,7 +22,7 @@
     
 
     <footer>
-        <p>&copy; 2021 Dashboard</p>
+        <p>&copy; 2023 Dashboard</p>
     </footer>
 </body>
 </html>
